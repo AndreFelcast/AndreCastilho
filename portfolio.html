@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        body{
+        background-image: url(imagens/Imagem2.jpg);
+        background-repeat: no-repeat;
+        margin: 50px;
+               
+        }
+        div.um{
+        color: rgb(155, 161, 165);
+        font-size: 70px;
+        font-family: monospace;
+        }    
+       div.dois{
+        color: rgb(155, 161, 165);
+        font-size: 20px;
+        font-family: monospace;
+        
+
+        }
+        div.tres{
+        color: #28262b;
+        font-size: 70px;
+        font-family: monospace;
+        }
+        div.quatro{
+        color:rgb(155, 161, 165);
+        font-size: 50px;
+        font-family: monospace;
+
+        }
+
+        html {
+	    box-sizing: border-box;
+        }
+        body{
+        color: #28262b;
+        font-size: 50px;
+        text-align: center;
+        font-family: monospace;
+  
+        }
+        box {
+        padding: 10px; 
+        }
+        /* /Criei um container para criar um card com minhas experiências/ */ 
+        .container {
+	    display: grid;
+	    grid-template-columns: 
+        250px 150px 150px 150px;
+	    grid-template-rows: 
+        100px 100px 100px 100px 100px 150px 100px;
+	    gap: 8px;
+        
+        }
+
+        .box {
+	    grid-column-start: 1;
+	    grid-column-end: 4;
+	    grid-row-start: 1;
+	    grid-row-end: 5;
+        border-radius: 10px 20px 30px 40px; 
+        /* /usei essa função para arrendondar 
+        as bordas e ficar um visual melhor/ */ 
+        }
+        /* /ajustei as linhas de star e end para 
+        fazer um card no lado direito da página/ */ 
+        .box2 {
+	    grid-column-start: 55;
+	    grid-column-end: 4;
+	    grid-row-start: 1;
+	    grid-row-end: 5;
+        border-radius: 10px 20px 30px 40px;
+        
+        }
+        /* /Cria um fundo de cada cor 
+        para se ajustar as cores da imagem/ */ 
+        .box {background: rgb(155, 161, 165)}
+        .box2 {background: #28262b;}
+        /* /Criei um botão para voltar a 
+        pagina principal com um efeito para 
+        mudar a cor/ */ 
+        .botao {
+        border: solid 1px #28262b;
+        border-radius: 50px;
+        color: #28262b;
+        background-color:rgb(155, 161, 165);
+        transition: background-color 
+        0.5s ease, color 0.5s ease, transform 0.5s ease;
+        scale: 2;
+        font-family: monospace;
+        }
+        .botao:hover{
+        background-color: #28262b;
+        color: white;
+        transform: scale(1.2)
+        }
+       
+
+        
+
+
+    </style>
+</head>
+<body>
+    <section style="float: right;">
+    <a href="index.html"><button class="botao">Voltar</button></a>
+
+    </section>
+
+
+    <section style="float: left; width: 40%;"> 
+    <div class="um">Portfolio.</div>
+
+</section>
+<br><br><br>
+
+    <div class="container">
+        <div class="box box1"> Recepção. <br>
+        <h6> Trabalhei como recepcionista durante 
+        8 meses no Hotel Novo Vernon,fazia check-ins 
+        e manobrava carro também, uma expriência muito 
+        boa como
+        um todo. </h6></div>
+
+    <div class="container quatro">
+        <div class="box box2"> Coziheiro. <br>
+        <h6> Trabalhei como cozinheiro no restaurante 
+        Outback, foi o local de maior aprendizado,não 
+        só aprendi a cozinhar de verdade, como entendi o
+        funcionamento de uma restaurante como um todo.</h6></div>   
+        
+
+
+
+
+</div>
+
+
+   
+    
+</body>
+</html>

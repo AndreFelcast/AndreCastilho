@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <style>
+        body{
+        background-image: url(imagens/Imagem2.jpg);
+        background-repeat: no-repeat;
+        box-sizing: border-box;
+        margin: 50px;
+               
+        }
+        div.um{
+        color: rgb(155, 161, 165);
+        font-size: 70px;
+        font-family: monospace;
+        }
+    
+       div.dois{
+        color: rgb(155, 161, 165);
+        font-size: 25px;
+        font-family: monospace;
+
+        }
+        div.tres{
+        color: #28262b;
+        font-size: 70px;
+        font-family: monospace;
+
+        }
+        /* /Criei um botão para voltar a 
+        pagina principal com um efeito para 
+        mudar a cor/ */ 
+        .botao {
+        border: solid 1px #28262b;
+        border-radius: 50px;
+        color: #28262b;
+        background-color: rgb(155, 161, 165);
+        transition: background-color 
+        0.5s ease, color 0.5s ease, transform 0.5s ease;
+        scale: 2;
+        font-family: monospace;
+        }
+        .botao:hover{
+        background-color: #28262b;
+        color: white;
+        transform: scale(1.2)
+        }
+        
+
+
+    </style>
+</head>
+<body>
+    <section style="float: right;">
+    <a href="index.html"><button class="botao">Voltar</button></a>
+
+    </section>
+
+
+    <div class="um">Contato.</div>
+    <div class="dois">
+        <h5>Entre em contato comigo 
+        pelas redes socias ou email.</h5></div> 
+    
+    <a href="Twitter"><img src="imagens/logo Twitter.png" 
+        alt="Twitter" title="Twitter" width="75px"></a>
+    <a href="Facebook"><img src="imagens/logo Facebook.png" 
+        alt="Facebook" title="Facebook"  width="75px"></a>
+    <a href="Instagram"><img src="imagens/logo instagram.png" 
+        alt="Instagram" title="Instagram"  width="75px"></a>
+    <a href="Linkedin"><img src="imagens/logo Linkedin.png" 
+        alt="Linkedin" title="Linkedin"  width="77px"></a>
+    <br><br><br><br><br><br><br><br><br><br><br><br>
+    
+    
+
+
+<section style="float: right; width: 40%;"> 
+    <div class="tres">Envie-me um e-mail</div>
+    <form>
+    <br><br>
+    <table>
+            
+    <tr>
+        <th>Nome</th>
+        <td><input type="text" name="nome" 
+            placeholder="Digite seu nome" size="50"></td>
+        </tr>
+
+
+            
+    <tr>
+        <th>E-mail</th>
+        <td><input type="email" name="email" 
+            placeholder="Digite seu email" size="50"></td>
+        </tr>
+
+
+            
+
+    <tr>
+        <th>Mensagem:</th>
+        <td><textarea placeholder="Digite sua mensagem" 
+            rows="5" cols="50"></textarea></td>
+    </tr>
+
+
+            
+
+    <tr>
+        <th></th>
+        <td><input type="submit" value="Enviar"></td>
+        </tr>
+    </table>
+    <br><br>
+</form>
+</section>
+    
+    
+    
+    
+</body>
+</html>
